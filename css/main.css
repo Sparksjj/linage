@@ -508,6 +508,7 @@ background: linear-gradient(to top, #eebb1e, #db7c2e); */
 #characters h4{
 	color: #eedf1e;
 	margin-top: 0;
+	padding-top: 10px;
 }
 #characters .row{
 	margin: 0;
@@ -567,6 +568,9 @@ background: linear-gradient(to top, #eebb1e, #db7c2e); */
 	text-align: center;
 }
 
+#characters h4{
+	text-align: left;
+}
 /*navigation*/
 
 #menu-hrefs{
