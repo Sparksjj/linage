@@ -16,9 +16,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link href="css/main.css" rel="stylesheet">
-
   </head>
-  <body>
+  <body class="statistic">
 
 
     <div class="container-fluid" id="page-wrapper">
@@ -58,10 +57,10 @@
 
             <ul class="nav navbar-nav navbar-right" id="menu-hrefs">
 
-              <li ><a href="#main-page-content" class="current" data-content="main-page-content">ФОРУМ</a></li>
+              <li ><a href="/lenage/index.html" data-content="main-page-content">ФОРУМ</a></li>
               <li><a href="#about" data-content="about">О СЕРВЕРЕ</a></li>
               <li><a href="#files" data-content="files">ФАЙЛЫ</a></li>
-              <li><a href="#statistics" data-content="statistics">СТАТИСТИКА</a></li>
+              <li><a href="#"  class="current" data-content="statistics">СТАТИСТИКА</a></li>
               <li><a href="#log-in" data-content="log-in">РЕГИСТРАЦИЯ</a></li>
         
             </ul>
@@ -99,12 +98,12 @@
     <img src="images/brunch.png" alt="brunch" id="brunch">
 
       <div class="container-fluid static-page-content" id="server-stistic">
-        <div class="container" id="events">
+
           <h2 class="text-center">СТАТИСТИКА</h2>
 
           <div class="row">
 
-          <div class="col-sm-6">
+          <div class="col-sm-6 scrollbar-inner">
             <ul>
               <li>Онлайн</li>
               <li>Оффлайн трейдеры:</li>
@@ -123,7 +122,7 @@
             </ul>
           </div>
 
-          <div class="col-sm-6">
+          <div class="col-sm-6 scrollbar-inner">
             ТОП КЛАНОВ
             <table>
               <tr>
@@ -170,7 +169,7 @@
 
       <div class="row">
 
-          <div class="col-sm-6">
+          <div class="col-sm-6 scrollbar-inner">
             ТОП КЛАНОВ
             <table>
               <tr>
@@ -214,7 +213,7 @@
             </table>
           </div>
 
-          <div class="col-sm-6">
+          <div class="col-sm-6 scrollbar-inner">
             ТОП КЛАНОВ
             <table>
               <tr>
@@ -258,34 +257,10 @@
             </table>
           </div>
 
-        </div>
-
-        </div>
-      </div>
-      <div class="container-fluid main-page-content" id="events-wrapper">
-        <div class="container" id="events">
-          <h2 class="text-center">ПОСЛЕДНИЕ СОБЫТИЯ НА СЕРВЕРЕ</h2>
-
-          <div class="col-sm-4 single-event">
-            <a href="#" class="">
-              <img src="images/al.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 single-event">
-            <a href="#" class="">
-              <img src="images/al.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 single-event">
-            <a href="#" class="">
-              <img src="images/al.jpg" alt="">
-            </a>
-          </div>
-
-        </div>
       </div>
 
-      
+
+      </div>     
 
 <!--static -->
     <img src="images/brunch_bottom.png" alt="brunch_bottom" id="brunch-bottom">
@@ -333,6 +308,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="scrollbar/jquery.scrollbar.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

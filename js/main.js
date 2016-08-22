@@ -1,8 +1,8 @@
-var mainPage = $(".main-page-content");
+/*var mainPage = $(".main-page-content");
 var statisticPage = $(".static-page-content");
-var menus = $('#menu-hrefs li a');
+var menus = $('#menu-hrefs li a');*/
 /*switch	()*/
-var url = window.location.hash;
+/*var url = window.location.hash;
 var hash = url.substring(url.indexOf('#')+1); // '#foo'
 showContent(hash);
 
@@ -16,8 +16,8 @@ menus.on('click', function(e){
 	menus.attr('class', '');
 	$(e.target).attr('class', 'current');
 	showContent($(e.target).attr('data-content'));
-});
-
+});*/
+/*
 function showContent(content){
 	switch(content){
 		case 'main-page-content':
@@ -39,4 +39,8 @@ function showContent(content){
 		break;
 
 	}
-}
+}*/
+
+jQuery(document).ready(function(){
+    jQuery('.scrollbar-inner').scrollbar();
+});

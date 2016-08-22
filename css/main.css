@@ -19,6 +19,9 @@ body{
 	color: white;
 	font-size: 16px;
 }
+body.statistic{
+	background: 50% 0 url(../images/head4.png) no-repeat;
+}
 
 #page-wrapper{
 	margin: 0 auto;
@@ -394,3 +397,4 @@ background: linear-gradient(to top, #eebb1e, #db7c2e); */
 	margin-left: -135px
 }
 }
+
